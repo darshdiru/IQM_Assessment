@@ -1,0 +1,32 @@
+.button {
+  border: none;
+  color: green;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.modalMain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 500;
+}
+
+.modalContainer {
+  position: fixed;
+  top: 26%;
+  left: 50%;
+  border: 2px solid #808080;
+  background-color: #ffffff;
+  box-shadow: 7px 7px 35px rgba(0, 0, 0, 0.65);
+  transform: translate(-50%, -20%);
+  z-index: 1000;
+  width: 50%;
+}
+
+.bodyWrapper {
+  margin: 0px 1px 0px 1px;
+}
